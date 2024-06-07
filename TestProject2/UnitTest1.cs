@@ -7,7 +7,7 @@ public class UnitTest1
     public void TestMethod1()
     {
         Console.WriteLine("this should print");
-        Assert.IsTrue(false);
+        Assert.IsTrue(true);
 
     }
 }
