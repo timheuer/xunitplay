@@ -12,9 +12,16 @@ public class UnitTest1
     }
 
     [Fact]
-    public void Test1()
+    public void Failed_XUnit_Test()
     {
-        _output.WriteLine("Test1");
+        _output.WriteLine("This xUnit test failed");
         Assert.True(false);
+    }
+
+    [Fact]
+    public void Passed_XUnit_Test()
+    {
+        _output.WriteLine("This xUnit test passed");
+        Assert.True(true);
     }
 }

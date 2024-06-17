@@ -4,10 +4,16 @@ namespace TestProject2;
 public class UnitTest1
 {
     [TestMethod]
-    public void TestMethod1()
+    public void MSTest_Failed_Test()
     {
-        Console.WriteLine("this should print");
+        Console.WriteLine("This MSTest failed");
         Assert.IsTrue(false);
+    }
 
+    [TestMethod]
+    public void MSTest_Passing_Test()
+    {
+        Console.WriteLine("This MSTest failed");
+        Assert.IsTrue(true);
     }
 }
