@@ -13,7 +13,7 @@ public class UnitTest1
     [TestMethod]
     public void MSTest_Passing_Test()
     {
-        Console.WriteLine("This MSTest failed");
+        Console.WriteLine("This MSTest passed");
         Assert.IsTrue(true);
     }
 }
