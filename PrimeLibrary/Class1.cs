@@ -2,6 +2,11 @@
 
 public class Class1
 {
+    public bool IsAnotherNumber(int foo)
+    {
+        return foo == 42;
+    }
+
     public bool IsPrime(int candidate)
     {
         if (candidate < 2)
