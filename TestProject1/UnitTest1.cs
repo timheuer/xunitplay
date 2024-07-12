@@ -33,7 +33,7 @@ public class UnitTest1
         Assert.False(_primeService.IsPrime(value), $"{value} should not be prime");
 
     [Theory]
-    [InlineData(2), InlineData(3), InlineData(5), InlineData(7)]
+    [InlineData(2), InlineData(3), InlineData(5), InlineData(7), InlineData(11)]
     public void IsPrime_PrimesLessThan10_ReturnTrue(int value) =>
         Assert.True(_primeService.IsPrime(value), $"{value} should be prime");
 
