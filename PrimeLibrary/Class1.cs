@@ -7,6 +7,11 @@ public class Class1
         return foo == 42;
     }
 
+    public bool IsNumber(string foo)
+    {
+        return int.TryParse(foo, out int parsed);
+    }
+
     public bool IsPrime(int candidate)
     {
         if (candidate < 2)
